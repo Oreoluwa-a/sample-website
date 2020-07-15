@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+   <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+   <title>cassie/signup</title>
+ </head>
+ <body id="home-contact">
+   <!-- Navbar -->
+   <nav id="navbar">
+		<h1 class="logo">
+		<a href="/cassie.html">	<span class="text-primary">cassie</span>
+      </a>
+      </h1>
+	<ul>
+ 	<li>Products</li>
+ 	<li>Solutions</li>
+ 	<li>Docs & Tools</li>
+ 	<li> Customer Stories</li>
+ 	<li>Partners</li>
+ 	<li> Pricing </li>
+ </ul> 
+ <div class="btn">
+ <a href="about.html" class="btn btn-transparent">About Us</a>
+ <a href="login.html" class="btn btn-light">Login</a>
+ 
+ </div>
+</nav>
+  </header>
+
+  <section id="contact-form" class="py-3">
+      <div class="container">
+         <h1 class="m-heading"><span class="text-primary">Sign</span> Up</h1>
+         
+         <div class="form-group">
+            <p class="fill">Please fill out the form below to Sign Up.</p>
+         </div>
+         
+         <form action="process.php"></form>
+         
+         <div class="form-group">
+          <label for="name">First Name:</label>
+          <input type="text" name="name" id="name" placeholder="First Name">
+        </div>
+
+        <div class="form-group">
+          <label for="name">Last Name:</label>
+          <input type="text" name="name" id="name" placeholder="Last Name">
+        </div>
+
+        <div>
+         <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="name" placeholder="Enter Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </div>
+        
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email Address">
+        <button type="submit" class="btn-transparent btn-submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact-info">
+   <div class="contact">
+      <h2 class="contact-heading"> Contact Us</h2>
+   </div>
+   <br>
+    <div class="container">
+        <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Location</h3>
+            <p>Lagos, Nigeria</p>
+          </div>
+          <div class="box">
+              <i class="fas fa-phone fa-3x"></i>
+              <h3>Phone Number</h3>
+              <p>(234) 333-333-333</p>
+          </div>
+          <div class="box">
+              <i class="fas fa-envelope fa-3x"></i>
+              <h3>Email Address</h3>
+              <p>ayomikun.onabanjo@cassie.com</p>
+          </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="bg-dark text-center py-1">
+   <div class="container">
+     <p>Copyright &copy; 2020 cassie, All Rights Reserved</p>
+   </div>
+ </footer>
+
+ <script src="/app.js"></script>
+</body>
+</html>
