@@ -42,7 +42,7 @@
             <p class="fill">Please fill out the form below to Sign Up.</p>
          </div>
          
-         <form action="process.php"></form>
+         <form name="contact" method="POST" data-netlify="true">
          
          <div class="form-group">
           <label for="name">First Name:</label>
@@ -63,11 +63,10 @@
 
         <div class="form-group">
           <label for="email">Email:</label>
-          <form name="contact" method="POST" data-netlify="true">
           <input type="email" name="email" id="email" placeholder="Enter Email Address">
         <button type="submit" class="btn-transparent btn-submit">Submit</button>
-        </form>
       </form>
+    </form>
     </div>
   </section>
 

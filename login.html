@@ -42,7 +42,7 @@
             <p class="fill">Please fill out the form below to Log In.</p>
          </div>
          
-         <form action="process.php"></form>
+         <form name="contact" method="POST" data-netlify="true">
          
          <div class="form-group">
           <label for="name">Email Address:</label>
@@ -51,7 +51,6 @@
 
         <div class="form-group">
           <label for="password">Password:</label>
-          <form name="contact" method="POST" data-netlify="true">
           <input type="password" name="password" id="password" placeholder="Enter Password">
         <button type="submit" class="btn-transparent btn-submit">Submit</button>
       </form>
